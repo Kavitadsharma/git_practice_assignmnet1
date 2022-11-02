@@ -1,8 +1,8 @@
 function checkPrime(num)
-    let factore =0;
+    let counter =0;
      for(let i=0;i<=num;i++){
      if(num%num==1{
-     factore++;
+     counter++;
      }
    }
  if(factore==0){
@@ -10,8 +10,8 @@ function checkPrime(num)
     }
    return false
    }
-let answer=prime(13);
-if(answer==true){
+let ans_Prime=prime(13);
+if(ans_Prime==true){
    console.log("prime");
 }
 else{
